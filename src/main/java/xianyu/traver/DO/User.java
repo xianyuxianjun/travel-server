@@ -10,10 +10,10 @@ import java.util.Date;
 @TableName(value = "users")
 public class User {
     @TableId
-    private Integer userId;
-    private String username;
-    private String password;
-    private String email;
-    private Date createAt;
-    private Date updateAt;
+    private Integer userId; //用户Id
+    private String username; //用户名
+    private String password; //密码
+    private String email;  //邮箱
+    private Date createAt;  //创建时间
+    private Date updateAt;  //修改时间
 }
